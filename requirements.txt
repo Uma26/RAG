@@ -1,0 +1,41 @@
+# --- Web Framework & Core Runtime ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+python-dotenv>=1.0.0
+
+# --- Frontend Client ---
+streamlit>=1.32.0
+requests>=2.31.0
+
+# --- LangChain Core & Community ---
+langchain-core>=0.1.30
+langchain-text-splitters>=0.0.1
+langchain-community>=0.0.25
+langchain-openai>=0.1.0
+
+# --- Ingestion, Cleaning & Chunking ---
+pypdf>=4.0.0
+python-docx>=1.1.0
+python-pptx>=0.6.23
+striprtf>=0.0.26
+beautifulsoup4>=4.12.0
+httpx>=0.27.0
+ftfy>=6.2.0
+tiktoken>=0.6.0
+
+# --- Embeddings, Storage & Retrieval ---
+openai>=1.14.0
+tenacity>=8.2.0
+faiss-cpu>=1.8.0
+rank-bm25>=0.2.2                  # BM25 sparse keyword retrieval index
+
+# --- Testing ---
+pytest>=8.0.0
+
+rank-bm25>=0.2.2
+
+python-dotenv>=1.0.0
+
+langsmith
